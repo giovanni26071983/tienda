@@ -1,0 +1,99 @@
+/*incluye bordes y rellenos dentro del tamano del elemento*/
+
+*{
+    box-sizing: border-box;
+  
+}
+body{
+    font-family: Arial,Helvetica, sans-serif;
+    background-color: #d1e3d9;
+    color: #000000;
+    margin: 0;
+}
+
+/*encabezado*/
+header{
+    background-color: #0f1f35;
+    color: #0eaeab;
+    padding: 10px 10px;
+    text-align: center;
+}
+main{
+    max-width: 1100px;/*anchura max  del contenido*/
+    padding: 25px;
+    background-color: #0a7678;
+    color: #0eaeab;
+    margin: 0 auto;/*espacio interno del contenido proincipal*/
+}
+
+h2{
+    
+    text-align: center;
+    
+}
+
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px; /*espacio interno del contenido proincipal*/
+    gap: 20px; /*espacio entre los productos*/
+}
+.producto{
+    background-color: #e46868;
+    border: 1px solid #edf1f1;
+    border-radius:12px;
+    padding: 20px;
+    width: 240px; /*ancho de cada producto*/
+    max-width: 100%; /*ancho maximo del producto*/
+    text-align: center;
+    box-shadow: 10px 4px 10px rgba(60, 56, 56, 0.79); /*sombra del producto*/
+}
+.producto:hover{
+    background-color: #07c1ef;
+}
+.producto img{
+    width: 100%; /*ancho de la imagen del producto*/
+    height: 160px; /*alto de la imagen del producto*/
+    object-fit: contain; /*ajuste de la imagen del producto*/
+    border-radius: 12px; /*bordes redondeados de la imagen del producto*/
+}
+.precio{
+    color: #ffffff; /*color del precio*/
+    font-size: 29px; /*tamaño de la fuente del precio*/
+    font-weight: bold; /*negrita del precio*/
+
+.descuento{
+    color: #5151549f; /*color del descuento*/
+    font-size: 15px; /*tamaño de la fuente del precio*/
+    font-weight: bold; /*negrita del precio*/
+
+}
+.precio_anterior{
+    color: #0d0da89f; /*color del descuento*/
+    font-size: 12px; /*tamaño de la fuente del precio*/
+    font-weight: bold; /*negrita del precio*/
+
+}
+    
+}
+button{
+    background-color: #0e65de; /*color de fondo del boton*/
+    color: #ffffff; /*color del texto del boton*/
+    border: none; /*sin borde del boton*/
+    padding: 10px 18px; /*espacio interno del boton*/
+    border-radius: 6px; /*bordes redondeados del boton*/
+    cursor: pointer; /*cursor en forma de mano al pasar sobre el boton*/
+    
+}
+footer{
+    background-color: #0e65de; /*color de fondo del pie de pagina*/
+    color: #e5ebeb; /*color del texto del pie de pagina*/
+    text-align: center; /*alineacion del texto del pie de pagina*/
+    padding: 15px; /*espacio interno del pie de pagina*/
+    margin-top: 25px; /*espacio externo del pie de pagina*/
+}
+a{
+    color: #e5ebeb; /*color del enlace*/
+    text-decoration: none; /*sin subrayado del enlace*/
+}

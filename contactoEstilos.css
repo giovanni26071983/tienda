@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.contacto{
+    width: 600px;
+    max-width: 100%;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border:1px solid #321a1a;
+    border-radius: 10px;
+    
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+input, select, textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #2b0f0f;
+    border-radius: 5px;
+}
+.botones{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+button{
+    padding: 10px 20px;
+    background-color: #95dfb7;
+    border: none;
+    border-radius: 5px;
+    
+}
+button:hover{
+    background-color: #0f1f35;
+    color: #0eaeab;
+    
+}
+input:focus, select:focus, textarea:focus{
+    outline: 2px solid #0eaeab;
+    outline-offset: 2px;
+}
